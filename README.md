@@ -1,4 +1,4 @@
-# marvin-litabot
+# justin-litabot
 
 This is a Lita bot that runs in Docker for Slack.
 
