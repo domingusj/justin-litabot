@@ -2,6 +2,10 @@
 
 This is a Lita bot that runs in Docker for Slack.
 
+## Transcrypt
+
+The ```secrets.env``` file is encrypted with [transcrypt](https://github.com/elasticdog/transcrypt). Ask the repo owner for the password. After cloning this repo, run ```transcrypt``` and use the info provided by the repo owner.
+
 ## Usage
 
 ```docker-compose build```
@@ -10,7 +14,7 @@ This is a Lita bot that runs in Docker for Slack.
 
 ## Local Testing
 
-Change the `environment` section in `docker-compose.yml` with your own ```LITA_SLACK_TOKEN``` or use local console instead.
+Change ```LITA_SLACK_TOKEN``` with your own, or just use local console instead.
 
 ## Redis
 
