@@ -1,0 +1,6 @@
+	github:1.19.2
+  token-macro:1.11
+  plain-credentials:1.1
+  github-api:1.69
+  credentials:1.22
+  git:2.4.0

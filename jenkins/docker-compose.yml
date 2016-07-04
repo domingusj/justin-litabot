@@ -1,0 +1,10 @@
+version: '2'
+services:
+  jenkins:
+    build: .
+    volumes:
+      - .:/var/jenkins_home
+    ports:
+      - '80:8080'
+    command:
+      - 'apt-get update && apt-get install -y git'
