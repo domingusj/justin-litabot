@@ -1,5 +1,4 @@
-provider "google" {
-  region = "${var.region}"
-  project = "${var.project_name}"
-  credentials = "${file("${var.credentials_file_path}")}"
-}
+U2FsdGVkX1+0s/7a8iUzcA07L/4ELzRFdGMM3rRbqrYb7wYnyg5s/DpPFUSMaTXi
+7MZqa13hSkPZrukjIiQ8gXvNMzdmOkpKF7kxgt/imNyE8/i8jiI19+zevZoN1wwc
+uGKNrIaYfIh0qbbK9mQHjulRn7cz6fBhl9gS3QI02V1IKTM4Ex1JDwF1uCMhkmTo
+fxY3oEM4dVlJZJj3MtORUQ==
