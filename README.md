@@ -20,4 +20,6 @@ Change ```LITA_SLACK_TOKEN``` with your own, or just use local console instead.
 
 Lita's brain runs in Redis, which is another Docker container configured in the same docker-compose.yml file. It will persist data to the host in the ```redis``` directory.
 
+## Kubernetes Dashboard
 
+Find the public IP of the `gce-justin-litabot` cluster and visit https://<public-ip>/ui
