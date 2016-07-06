@@ -1,6 +1,23 @@
-	github:1.19.2
-  token-macro:1.11
-  plain-credentials:1.1
-  github-api:1.69
-  credentials:1.22
-  git:2.4.0
+github:1.19.2
+token-macro:1.11
+plain-credentials:1.1
+github-api:1.69
+credentials:1.22
+git:2.4.0
+kubernetes:0.7
+credentials:1.22
+durable-task:1.6
+workflow-support:2.1
+workflow-cps:2.6
+pipeline-stage-step:2.1
+pipeline-stage-view:1.4
+workflow-cps-global-lib:2.0
+pipeline-input-step:2.0
+workflow-basic-steps:2.0
+workflow-multibranch:2.8
+workflow-scm-step:2.1
+workflow-job:2.3
+workflow-durable-task-step:2.2
+workflow-step-api:2.1
+pipeline-build-step:2.1
+workflow-api:2.1

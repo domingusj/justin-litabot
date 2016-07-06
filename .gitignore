@@ -1,1 +1,2 @@
 terraform.tfstate*
+jenkins/jenkins_home/*
