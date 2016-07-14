@@ -1,7 +1,3 @@
 #pattern  filter=crypt diff=crypt
 lita/secrets.env filter=crypt diff=crypt
-terraform/main.tf filter=crypt diff=crypt
-terraform/gcloud_id_rsa filter=crypt diff=crypt
-terraform/gcloud_id_rsa.pub filter=crypt diff=crypt
-terraform/google_auth.json filter=crypt diff=crypt
-terraform/variables.tf filter=crypt diff=crypt
+terraform/* filter=crypt diff=crypt

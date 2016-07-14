@@ -1,20 +1,26 @@
 version: '2'
 services:
+  jenkins:
+    build: ./jenkins
+    ports:
+      - '8000:8080'
+      - '50000:50000'
   lita:
-    build: .
+    build: ./lita
     links:
       - redis
     depends_on:
       - redis
     volumes:
-      - .:/code
+      - ./lita:/code
     ports:
     - '8080:8080'
     environment:
       - LITA_ADAPTER=slack
       - LITA_ROBOT_ADMINS=jdom
-    env_file: ./secrets.env
+    env_file: ./lita/secrets.env
   redis:
     image: redis
+    command: redis-server --appendonly yes
     volumes:
       - ./redis:/data
